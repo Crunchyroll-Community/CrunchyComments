@@ -1,6 +1,6 @@
 # Crunchy Comments <img src="src/icons/icon128.png" alt="logo"/>
 
-A browser extension that adds community comments to Crunchyroll anime series and episodes using Disqus. Discuss your favorite shows with other anime fans!
+A browser extension that adds a comments section to Crunchyroll anime and episodes using Disqus. Discuss your favorite shows with other anime fans!
 
 ## Features
 - Comment on any Crunchyroll anime series or episode

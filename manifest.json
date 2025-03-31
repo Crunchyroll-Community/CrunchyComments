@@ -1,18 +1,22 @@
 {
   "manifest_version": 3,
-  "name": "Crunchyroll Comments",
-  "version": "1.0",
-  "description": "Community comments for Crunchyroll",
+  "name": "Crunchy Comments",
+  "version": "1.0.0",
+  "description": "Community comments for Crunchyroll - Discuss anime episodes and series with other fans",
+  "author": "Your Name",
+  "homepage_url": "https://github.com/crunchyroll-community/Crunchy-Comments",
+  "icons": {
+    "16": "src/icons/icon16.png",
+    "32": "src/icons/icon32.png",
+    "48": "src/icons/icon48.png",
+    "128": "src/icons/icon128.png"
+  },
   "permissions": ["activeTab"],
-  "web_accessible_resources": [{
-    "resources": ["comments.html"],
-    "matches": ["*://*.crunchyroll.com/*"]
-  }],
   "content_scripts": [
     {
       "matches": ["*://*.crunchyroll.com/*"],
-      "js": ["content.js"],
-      "css": ["styles.css"]
+      "js": ["src/content.js"],
+      "css": ["src/styles.css"]
     }
   ]
 }

@@ -29,18 +29,6 @@ We use GitHub Pages to host our comment interface because:
 4. Click "Load unpacked" and select the extension folder
 5. The comment button (💬) should now appear on Crunchyroll pages
 
-## Future Scalability
-If the extension grows significantly:
-- Comments interface can be moved to Cloudflare Pages
-- Can implement our own comment system if needed
-- Multiple fallback options available for hosting
-
-## Potential Challenges
-While unlikely, here are some scenarios and solutions:
-- If Disqus service changes: Can migrate to alternative comment systems
-- If hosting needs change: Can move to Cloudflare/Vercel/similar services
-- If Crunchyroll updates their site: Extension can be updated to match changes
-
 ## Contributing
 Feel free to contribute to this project by submitting issues or pull requests!
 

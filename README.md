@@ -1,4 +1,4 @@
-# Crunchy Comments <img src="src/icons/icon128.png" alt="logo" height="40"/>
+<img src="src/icons/icon128.png" alt="logo" height="40"/> # Crunchy Comments
 
 💬 A browser extension that adds a comments section to Crunchyroll using the Disqus platform.  
 Join discussions with other anime fans — right from the episode or series page!
@@ -11,7 +11,7 @@ Join discussions with other anime fans — right from the episode or series page
 
 - 💬 Add comments to any anime series or episode on Crunchyroll
 - 🧼 Minimal, floating comment button — non-intrusive and always accessible
-- 🖥️ Compatible with homepage, series pages, and episode pages
+- 🖥️ For now Compatible with series pages and episode pages with technically can be used on any page on crunchyroll.
 - 🔗 Comments open in a styled popup (hosted via GitHub Pages)
 
 ---

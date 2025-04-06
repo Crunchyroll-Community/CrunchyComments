@@ -1,4 +1,4 @@
-<img src="src/icons/icon128.png" alt="logo" height="40"/> # Crunchy Comments
+# Crunchy Comments <img src="src/icons/icon128.png" alt="logo" height="40"/>
 
 💬 A browser extension that adds a comments section to Crunchyroll using the Disqus platform.  
 Join discussions with other anime fans — right from the episode or series page!

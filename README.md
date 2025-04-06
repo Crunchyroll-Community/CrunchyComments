@@ -1,36 +1,63 @@
-# Crunchy Comments <img src="src/icons/icon128.png" alt="logo"/>
+# Crunchy Comments <img src="src/icons/icon128.png" alt="logo" height="40"/>
 
-A browser extension that adds a comments section to Crunchyroll anime and episodes using Disqus. Discuss your favorite shows with other anime fans!
+💬 A browser extension that adds a comments section to Crunchyroll using the Disqus platform.  
+Join discussions with other anime fans — right from the episode or series page!
 
-## Features
-- Comment on any Crunchyroll anime series or episode
-- Floating comment button that's non-intrusive
-- Works on series pages, episode pages, and homepage
-- Comments open in a separate window for better viewing experience
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Why Disqus?
-- Ready-to-use commenting system with moderation tools
-- Handles user authentication and spam protection
-- No backend maintenance required
-- Free for basic usage
-- Widely used and trusted platform
+---
 
-## Technical Implementation
-We use GitHub Pages to host our comment interface because:
-- Zero hosting costs
-- Reliable uptime
-- No maintenance required
-- Fast loading times globally
+## 🚀 Features
 
-## Installation Guide
-1. Download the extension files
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension folder
-5. The comment button (💬) should now appear on Crunchyroll pages
+- 💬 Add comments to any anime series or episode on Crunchyroll
+- 🧼 Minimal, floating comment button — non-intrusive and always accessible
+- 🖥️ Compatible with homepage, series pages, and episode pages
+- 🔗 Comments open in a styled popup (hosted via GitHub Pages)
 
-## Contributing
-Feel free to contribute to this project by submitting issues or pull requests!
+---
 
-## License
-MIT License - feel free to use and modify as needed.
+## 🤔 Why Disqus?
+
+- ✅ No backend setup required
+- 🛡️ Built-in moderation and anti-spam tools
+- 🔐 Handles login & authentication
+- 🌍 Popular and widely trusted
+- 💸 Free for basic use
+
+---
+
+## ⚙️ Technical Details
+
+- The interface that loads Disqus is hosted on GitHub Pages:
+  - 💡 Reliable, fast, and zero-cost hosting
+  - 🌐 Global CDN for speedy comment loading
+- The extension sends page metadata via query parameters to load the relevant thread.
+
+---
+
+## 📥 Installation Guide
+
+1. Clone or [download this repo as ZIP](https://github.com/crunchyroll-community/CrunchyComments/archive/refs/heads/main.zip)
+2. Go to `chrome://extensions/`
+3. Enable **Developer mode** (top-right)
+4. Click **Load unpacked**
+5. Select the unzipped extension folder
+6. Visit Crunchyroll and click the 💬 button on any anime page
+
+---
+
+## 🛠 Contributing
+
+We welcome contributions!  
+Feel free to:
+- Report bugs
+- Suggest features
+- Submit pull requests
+
+> 📢 Join us in making Crunchyroll a better place for fan discussions!
+
+---
+
+## 📄 License
+
+Licensed under the **MIT License** — free to use, share, and improve.

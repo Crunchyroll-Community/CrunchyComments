@@ -55,8 +55,6 @@ Feel free to:
 - Suggest features
 - Submit pull requests
 
-> 📢 Join us in making Crunchyroll a better place for fan discussions!
-
 ---
 
 ## 📄 License

@@ -11,7 +11,7 @@ Join discussions with other anime fans — right from the episode or series page
 
 - 💬 Add comments to any anime series or episode on Crunchyroll
 - 🧼 Minimal, floating comment button — non-intrusive and always accessible
-- 🖥️ For now Compatible with series pages and episode pages with technically can be used on any page on crunchyroll.
+- 🖥️ Currently works on series and episode pages, but technically compatible with any Crunchyroll page
 - 🔗 Comments open in a styled popup (hosted via GitHub Pages)
 
 ---
@@ -28,10 +28,11 @@ Join discussions with other anime fans — right from the episode or series page
 
 ## ⚙️ Technical Details
 
-- The interface that loads Disqus is hosted on GitHub Pages:
+- The comments interface is hosted on **GitHub Pages**:
   - 💡 Reliable, fast, and zero-cost hosting
   - 🌐 Global CDN for speedy comment loading
-- The extension sends page metadata via query parameters to load the relevant thread.
+- The extension passes metadata via query parameters to load the relevant thread in the Disqus embed.
+- We chose **Disqus** and **GitHub Pages** because they require zero maintenance, making this solution lightweight and reliable — unlike other alternatives that depend on custom servers or APIs which can go down or break.
 
 ---
 
@@ -61,3 +62,7 @@ Feel free to:
 ## 📄 License
 
 Licensed under the **MIT License** — free to use, share, and improve.
+
+---
+
+Made by [Ayush](https://github.com/IkemenSenpai)

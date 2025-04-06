@@ -1,19 +1,14 @@
 // Check if we're on an anime or episode page
 function isRelevantPage() {
     const url = window.location.href;
-    return url.includes('/watch/') || url.includes('/series/') || url === 'https://www.crunchyroll.com/';
+    return url.includes('/watch/') || url.includes('/series/');
 }
 
 function extractPageInfo(url) {
     const urlObj = new URL(url);
     const pathParts = urlObj.pathname.split('/');
     
-    if (urlObj.pathname === '/') {
-        return {
-            type: 'home',
-            id: 'homepage'
-        };
-    } else if (urlObj.pathname.includes('/watch/')) {
+    if (urlObj.pathname.includes('/watch/')) {
         return {
             type: 'episode',
             id: pathParts[pathParts.indexOf('watch') + 1]
